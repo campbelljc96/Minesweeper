@@ -12,7 +12,7 @@ var grid;
 var cols;
 var rows;
 var w = 50;
-var totalBees = 10;
+var totalBees = 15;
 var win = false;
 
 
