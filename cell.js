@@ -26,13 +26,13 @@ Cell.prototype.show = function() {
 			rect(this.x, this.y, this.w, this.w);
 			if (this.neighbourCount > 0) {
 				fill(0);
-				textAlign(CENTER);
-				text(this.neighbourCount, this.x + this.w * 0.5, this.y + this.w - 6);
+				textAlign(CENTER, CENTER);
+				text(this.neighbourCount, this.x + this.w * 0.5, this.y + this.w * 0.5);
 			}
 		}
 	}
 	if (this.flagged) {
-		triangle(this.x + 5, this.y + this.w - 5, this.x + this.w * 0.5, this.y + 5, this.x + this.w - 5, this.y + this.w - 5);
+		triangle(this.x + this.w * 0.25, this.y + this.w * 0.75, this.x + this.w * 0.5, this.y + this.w * 0.25, this.x + this.w * 0.75, this.y + this.w * 0.75);
 	}
 }
 
