@@ -111,6 +111,7 @@ function draw() {
 		}
 	}
 	if (win) {
+		textSize(32);
 		text('You win',width/2, height/2);
 	}
 }
