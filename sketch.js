@@ -11,13 +11,13 @@ function make2DArray(cols, rows) {
 var grid;
 var cols;
 var rows;
-var w = 20;
+var w = 50;
 var totalBees = 10;
 var win = false;
 
 
 function setup() {
-	cnv = createCanvas(200, 200);
+	cnv = createCanvas(500, 500);
 	cnv.elt.addEventListener("contextmenu", (e) => e.preventDefault())
 	cnv.position(5, 5);
 	// put setup code here
